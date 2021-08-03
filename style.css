@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(120, 77%, 14%);
+    color: white;
+    text-shadow:1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 8vh;
+    font-size: 4vw;
+}
+
+.title{
+    color: darkgoldenrod;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    font-size: 13vw;
+    margin-bottom: 4vh;
+}
+
+#start,#new{
+    background-color: darkgoldenrod;
+    color: white;
+    text-shadow:0.5px 0.5px black;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+button{
+    border: 1.5px 1.5px;
+    border-radius: 7px;
+    width: 160px;
+    height: 40px;
+    margin: 3vh 0 10px 0;
+}
+
+p{
+    margin: 2vh;
+}
